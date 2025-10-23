@@ -1,0 +1,29 @@
+# -------------------------------------------------------------------
+# 1. IGNORAR "BASURA" DEL SISTEMA Y DEL EDITOR DE CÓDIGO
+# -------------------------------------------------------------------
+
+# Archivos de sistema operativo (macOS y Windows)
+.DS_Store
+Thumbs.db
+
+# Archivos de editores de código (VSCode, PyCharm, etc.)
+.vscode/
+.idea/
+.spyproject/
+
+# Archivos de entorno y caché de Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# -------------------------------------------------------------------
+# 2. IGNORAR DATOS ESPECÍFICOS DEL PROYECTO
+# -------------------------------------------------------------------
+
+# Ignorar el dataset de COVID-19
+data/inputs/dataset_covid.csv
+
+# Ignorar TODA la carpeta de salida
+data/outputs/
