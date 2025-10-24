@@ -29,7 +29,24 @@ El análisis ha permitido alcanzar varios logros fundamentales:
 
 El proyecto está estructurado de la siguiente manera:
 ```
-TFM_Project/ ├── .gitignore <-- Archivo para ignorar datos y caché ├── README.md <-- Esta página de presentación ├── Requirements.txt <-- Lista de librerías de Python │ ├── Reports/ │ ├── TFM JMSV ANALISTAS.docx │ └── TFM JMSV EJECUTIVOS.docx │ ├── Scripts/ │ ├── 01_data_preparation.py │ ├── 02_exploratory_analysis.py │ ├── 03_clustering_analysis.py │ └── 04_advanced_modeling.py │ └── Data/ ├── inputs/ │ ├── countries.geo.json │ └── .gitkeep (El dataset .csv se ignora con .gitignore) │ └── outputs/ └── .gitkeep (Esta carpeta se ignora con .gitignore)
+TFM_Project/
+├── .gitignore <-- Archivo para ignorar datos y caché
+├── README.md <-- Esta página de presentación
+├── Requirements.txt <-- Lista de librerías de Python
+├── Reports/
+    │ ├── TFM_analistas_Jose_Manuel_Segovia_Valdivia.pdf
+    │ └── TFM_ejecutivos_Jose_Manuel_Segovia_Valdivia.pdf
+├── Scripts/
+    │ ├── 01_data_preparation.py
+    │ ├── 02_exploratory_analysis.py
+    │ ├── 03_clustering_analysis.py
+    │ └── 04_advanced_modeling.py
+└── Data/
+    | ├── inputs/
+        | │ ├── countries.geo.json
+        │ └── .gitkeep (El dataset .csv se ignora con .gitignore)
+    │ └── outputs/
+        | └── .gitkeep (Esta carpeta se ignora con .gitignore)
 ```
 ## 4. Cómo Ejecutar el Proyecto
 
