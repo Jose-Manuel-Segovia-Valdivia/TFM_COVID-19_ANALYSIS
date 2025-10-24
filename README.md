@@ -29,9 +29,9 @@ El análisis ha permitido alcanzar varios logros fundamentales:
 
 El proyecto está estructurado de la siguiente manera:
 ```
-TFM_Project/
-├── .gitignore <-- Archivo para ignorar datos y caché
-├── README.md <-- Esta página de presentación
+TFM_COVID-19_ANALYSIS/
+├── .gitignore 
+├── README.md 
 ├── Requirements.txt <-- Lista de librerías de Python
 ├── Reports/
     │ ├── TFM_analistas_Jose_Manuel_Segovia_Valdivia.pdf
@@ -44,9 +44,9 @@ TFM_Project/
 └── Data/
     | ├── inputs/
         | │ ├── countries.geo.json
-        │ └── .gitkeep (El dataset .csv se ignora con .gitignore)
+        │ └── .gitkeep 
     │ └── outputs/
-        | └── .gitkeep (Esta carpeta se ignora con .gitignore)
+        | └── .gitkeep 
 ```
 ## 4. Cómo Ejecutar el Proyecto
 
@@ -56,8 +56,8 @@ Este proyecto está diseñado como un pipeline secuencial. Los scripts deben eje
 
 1.  **Clonar el repositorio:**
     ```bash
-    git clone [https://github.com/](https://github.com/)[TU_USUARIO]/[NOMBRE_DEL_REPOSITORIO].git
-    cd [NOMBRE_DEL_REPOSITORIO]
+    git clone [https://github.com/](https://github.com/)[Jose-Manuel-Segovia-Valdivia]/[TFM_COVID-19_ANALYSIS].git
+    cd [TFM_COVID-19_ANALYSIS]
     ```
 2.  **(Recomendado) Crear un entorno virtual:**
     ```bash
@@ -79,12 +79,15 @@ Este repositorio no incluye el archivo `dataset_covid.csv` (700MB+) debido a las
 3.  **Coloca el archivo** dentro de la carpeta `Data/inputs/`.
 
 La estructura de tu carpeta `Data/inputs/` debe quedar así:
-Data/ └── inputs/ ├── countries.geo.json └── dataset_covid.csv <-- (El archivo que acabas de descargar)
-
-
+```
+Data/
+    └── inputs/
+        ├── countries.geo.json
+        └── dataset_covid.csv <-- (El archivo que acabas de descargar)
+```
 ### Paso 3: Ejecutar el Pipeline
 
-Ejecuta los scripts en orden desde la carpeta raíz del proyecto (`TFM_Project/`).
+Ejecuta los scripts en orden desde la carpeta raíz del proyecto (`TFM_COVID-19_ANALYSIS/`).
 
 ```bash
 python Scripts/01_data_preparation.py
