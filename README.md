@@ -28,9 +28,9 @@ El análisis ha permitido alcanzar varios logros fundamentales:
 ## 3. Estructura del Repositorio
 
 El proyecto está estructurado de la siguiente manera:
-
+```
 TFM_Project/ ├── .gitignore <-- Archivo para ignorar datos y caché ├── README.md <-- Esta página de presentación ├── Requirements.txt <-- Lista de librerías de Python │ ├── Reports/ │ ├── TFM JMSV ANALISTAS.docx │ └── TFM JMSV EJECUTIVOS.docx │ ├── Scripts/ │ ├── 01_data_preparation.py │ ├── 02_exploratory_analysis.py │ ├── 03_clustering_analysis.py │ └── 04_advanced_modeling.py │ └── Data/ ├── inputs/ │ ├── countries.geo.json │ └── .gitkeep (El dataset .csv se ignora con .gitignore) │ └── outputs/ └── .gitkeep (Esta carpeta se ignora con .gitignore)
-
+```
 ## 4. Cómo Ejecutar el Proyecto
 
 Este proyecto está diseñado como un pipeline secuencial. Los scripts deben ejecutarse en orden numérico, ya que la salida de uno es la entrada del siguiente.
